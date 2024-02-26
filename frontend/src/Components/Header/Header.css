@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.Header 
+{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+    box-shadow: 2px 2px 80px 4px rgb(0, 255, 200);
+}
+.header__left 
+{
+    flex: 0.4;
+}
+.header__left > h1 
+{
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+.header__left > h1 > span 
+{
+   color: rgb(0, 255, 191);
+}
+.header__right 
+{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header__right > a > h4 
+{
+   font-size: 16px;
+   cursor: pointer;
+   transition:transform 200ms ease-in-out;
+   font-family: "crimson Text",serif;
+   padding: 20px 0;
+   letter-spacing: 1px;
+}
+.header__right > a > h4:hover
+{
+   transform: scale(1.15);
+   background-color:rgb(0, 255, 191); 
+   color: black;
+   padding: 5px 20px;
+   border-radius: 3px;
+   letter-spacing: 1px;
+   font-family: "crimson Text",serif;
+   font-size: 16px;
+   cursor: pointer;
+}
+.header__rightbutton 
+{
+    background-color:rgb(0, 255, 191); 
+    color: black;
+    padding: 5px 20px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-family: "crimson Text",serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media screen and (max-width:480px){
+    .Header 
+    {
+        background-color: black;
+        width: 480px;
+    }
+    .header__left > h1 > span 
+   {
+        color: rgb(0, 255, 191);
+        font-size: smaller;
+   }
+   .header__left > h1 
+   {
+     text-align: center;
+     letter-spacing: 1px;
+     padding: 20px 0;
+    }
+    .header__left 
+    {
+      flex: 0.7;
+    }
+    .header__right
+    {
+         flex: 0.3;
+         display: none;
+    }
+    .mobile-header 
+    {
+        background-color: black;
+    }
+    .menu
+    {
+        width: 30px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: aquamarine;
+        margin: 5px 0;
+    }
+    .mobile-menu 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5px;
+        font-size: 13px;
+        padding: 20px;
+        border-radius: 4px;
+        box-shadow: 2px 2px 40px 4px rgb(0, 255, 200);
+    }
+    .mobile-menu > a > h4:hover 
+    {
+        cursor: pointer;
+        box-shadow: 2px 2px 40px 4px rgb(0, 255, 200);
+    }
+}

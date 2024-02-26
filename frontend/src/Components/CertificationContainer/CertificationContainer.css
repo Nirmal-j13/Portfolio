@@ -1,0 +1,32 @@
+.certification
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.certification_content
+{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 50px;
+}
+@media screen and (max-width:480px) 
+{
+    .certification
+    {
+       height: 200vh;
+    }
+    .certification_content
+   { 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column ;
+     gap: 1.2rem;
+     margin-top: 50px;
+   }
+}

@@ -1,0 +1,43 @@
+.projects 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    height: 100vh;
+    background-color: black;
+}
+
+.projects > p 
+{
+    padding-bottom:20px; ;
+}
+.projects__detail
+{
+    display: flex;
+    width: 60vw;
+    margin-top: 50px;
+}
+@media screen and (max-width:480px) 
+{
+    .projects 
+    {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: aliceblue;
+     height: 100vh;
+    }
+    .projects__detail
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 60vw;
+    margin-top: 10px;
+   }
+}

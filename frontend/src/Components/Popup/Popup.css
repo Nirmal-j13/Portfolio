@@ -1,0 +1,77 @@
+.popup 
+{
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_inner 
+{
+    padding: 32px;
+    color: black;
+    max-width: 140px;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.join-me 
+{
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.popup_inner .close_btn 
+{
+    position: relative;
+    top:16px;
+    right: 16px;
+}
+input
+{
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+button 
+{
+    margin-right: 5px;
+}
+.btn-1
+{
+  background-color: aquamarine;
+  font-size: 15px;
+  width: 100px;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.btn-2
+{
+  background-color: rgb(255, 150, 150);
+  font-size: 15px;
+  padding: 2px;
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.popup_form 
+{
+    flex-direction: column;
+}
+@media screen and (max-width:480px)
+{
+  .popup 
+  {
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
